@@ -1,0 +1,75 @@
+{
+  "poll": {
+    "id": "pizza-night",
+    "title": "Pizza night: what are we ordering?",
+    "status": "open",
+    "closesAt": "2026-10-06T19:00:00+02:00",
+    "shareUrl": "https://tiebreak.test/p/pizza-night",
+    "live": true,
+    "totalVotes": 11,
+    "voterCount": 11,
+    "lastVoteAt": "2026-10-06T07:59:00+02:00",
+    "leadMargin": 2,
+    "options": [
+      {
+        "id": "opt-detroit",
+        "name": "Detroit-style",
+        "restaurant": "Emmy's",
+        "label": "Detroit-style from Emmy's",
+        "votes": 5,
+        "percent": 45,
+        "isLeading": true,
+        "suggestedBy": { "id": "user-priya", "name": "Priya" }
+      },
+      {
+        "id": "opt-pepperoni",
+        "name": "Pepperoni",
+        "restaurant": "Slice House",
+        "label": "Pepperoni from Slice House",
+        "votes": 3,
+        "percent": 27,
+        "isLeading": false,
+        "suggestedBy": null
+      },
+      {
+        "id": "opt-veggie",
+        "name": "Veggie supreme",
+        "restaurant": "Nino's",
+        "label": "Veggie supreme from Nino's",
+        "votes": 2,
+        "percent": 18,
+        "isLeading": false,
+        "suggestedBy": { "id": "user-jonah", "name": "Jonah" }
+      },
+      {
+        "id": "opt-margherita",
+        "name": "Margherita",
+        "restaurant": "Lupa",
+        "label": "Margherita from Lupa",
+        "votes": 1,
+        "percent": 9,
+        "isLeading": false,
+        "suggestedBy": null
+      }
+    ],
+    "pendingSuggestions": [
+      {
+        "id": "sug-1",
+        "text": "Just order salads",
+        "suggestedBy": { "id": "user-sam", "name": "Sam" },
+        "initialVotes": 0,
+        "actions": ["approve", "reject"]
+      }
+    ],
+    "settings": {
+      "segmentsTotal": 11,
+      "canEndEarly": true,
+      "canReopen": true
+    }
+  },
+  "users": [
+    { "id": "user-priya", "name": "Priya", "avatar": "/avatars/priya.png" },
+    { "id": "user-jonah", "name": "Jonah", "avatar": "/avatars/jonah.png" },
+    { "id": "user-sam", "name": "Sam", "avatar": "/avatars/sam.png" }
+  ]
+}
